@@ -1,0 +1,63 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  display: flex;
+}
+
+.box-1 {
+  flex: 1;
+  background-color: red;
+}
+
+.box-2 {
+  flex: 1;
+  background-color: blue;
+}
+
+.box-3 {
+  flex: 1;
+  background-color: orange;
+}
+
+.container-2 {
+  display: flex;
+}
+ 
+.bbox-1 {
+  background-color: yellow;
+  flex: 1;
+}
+
+.bbox-2 {
+  flex: 1;
+  background-color: purple;
+}
+
+.bbox-3 {
+  background-color: violet;
+  flex: 1;
+}
+
+.container-3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-items: center;
+}
+
+.container-3 div {
+  flex: 0 32%;
+  width: 48%;
+  height: 100px;
+  margin-bottom: 2%;
+  text-align: center;
+  
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+}
